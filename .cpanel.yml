@@ -2,4 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home1/zrjlxfte/softeem.ca/test
+    - /bin/mkdir -p $DEPLOYPATH
     - /bin/cp -R * $DEPLOYPATH
