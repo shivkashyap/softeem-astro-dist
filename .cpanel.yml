@@ -3,5 +3,5 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home1/zrjlxfte/softeem.ca
     - /bin/mkdir -p $DEPLOYPATH
-    - /bin/cp -R /home1/zrjlxfte/repositories/softeem-astro-dist/* $DEPLOYPATH
+    - /bin/cp -R /home1/zrjlxfte/repositories/softeem-astro-dist/. $DEPLOYPATH
     - /bin/ls -la $DEPLOYPATH
